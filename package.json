@@ -1,0 +1,19 @@
+{
+  "name": "levelup",
+  "version": "1.0.0",
+  "description": "Magic software helping you to become a better person.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MilanPavel/levelup.git"
+  },
+  "author": "Milan Pavel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MilanPavel/levelup/issues"
+  },
+  "homepage": "https://github.com/MilanPavel/levelup#readme"
+}
