@@ -4,6 +4,9 @@
   "description": "Magic software helping you to become a better person.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/MilanPavel/levelup/issues"
   },
-  "homepage": "https://github.com/MilanPavel/levelup#readme"
+  "homepage": "https://github.com/MilanPavel/levelup#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.6"
+  }
 }
