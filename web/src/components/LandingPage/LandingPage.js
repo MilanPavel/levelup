@@ -1,8 +1,9 @@
 import React from 'react';
+import ResponsiveNavbar from '../Base/ResponsiveNavbar';
 
 class LandingPage extends React.Component {
   render() {
-    return <h1>LandingPage</h1>;
+    return <ResponsiveNavbar />;
   }
 }
 
