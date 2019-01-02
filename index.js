@@ -38,6 +38,6 @@ if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'ci') {
     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
   });
 }
-console.log("I'm here");
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
